@@ -9,8 +9,8 @@ export class LessonResolver {
         return {
             id: '213dfs32',
             name: 'Math Class',
-            startDate: (new Date().toDateString),
-            endDate: (new Date().toDateString)
+            startDate: (new Date().toISOString()),
+            endDate: (new Date().toISOString())
         }
     }
 }
